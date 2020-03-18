@@ -1,15 +1,12 @@
-/* 
-Palette
-=======
-Black: 252525
-Grey: 535353
-White: c4c4c4
-Yellow: f6da55
- */
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
+html,
 body {
-    background-color: #252525;
-    color: #c4c4c4;
+    background-color: #b80d57;
+    color: white;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,19 +15,17 @@ h1 {
     font-size: 3rem;
 }
 
-.container {
-    width: 80%;
-    padding: 30px;
-    margin: auto;
-}
-
 section {
     min-height: 100vh;
+    border: 0px;
+    width: 100%;
+    display: inline-block;
+    padding: 20px;
 }
 
 section h2 {
     font-family: 'Lato', sans-serif;
-    color: #f6da55;
+    color: #ffd868;
     padding-top: 40px;
 }
 
@@ -38,11 +33,12 @@ header {
     display: flex;
     height: 100px;
     align-items: center;
+    padding: 20px;
 }
 
 header a {
     float: left;
-    color: #c4c4c4;
+    color: white;
     text-decoration: none;
     font-size: 1.2rem;
     padding: 10px;
@@ -55,33 +51,40 @@ header a {
 }
 
 .header-logo a img {
-    width:100%;
-    max-width:100px;
+    width: 100%;
+    max-width: 100px;
 }
 
-.header-about a, .header-cv a, .header-contact a {
-    /* flex: 25%; */
-    text-align: right;
-    padding-left: 10px;
+.header-about a,
+.header-cv a,
+.header-contact a {
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px;
+    color: white;
 }
 
 header a:hover {
-    color: #f6da55;
+    color: #ffd868;
 }
 
 #home {
-    padding-top: 20%;
-    color: #f6da55;
+    padding-top: 15%;
+    color: #ffd868;
+}
+
+#about {
+    background-color: #f8615a;
 }
 
 #about a {
     text-decoration: none;
-    color: #f6da55;
+    color: #ffd868;
 }
 
 #cv {
-    max-width: 960px;
     line-height: 1.8em;
+    background-color: #ffaaa5;
 }
 
 #cv .position {
@@ -99,11 +102,30 @@ header a:hover {
 #cv .summary h4 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 1.2em;
-    color: #f6da55;
+    color: #ffd868;
 }
 
 #cv ul {
     margin-bottom: 1.2em;
+}
+
+#cv li {
+    color: black;
+}
+
+#contact {
+    background-color: coral;
+}
+
+.contact-me {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.contact-me a {
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
 }
 
 hr {
@@ -117,8 +139,8 @@ hr {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: #c4c4c4;
-    color: c4c4c4;
+    background-color: white;
+    color: black;
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
@@ -126,10 +148,20 @@ hr {
 }
 
 #backToTopBtn:hover {
-    background-color: #f6da55;
+    background-color: #ffd868;
     color: #252525;
 }
 
-@media screen and (max-width: 500px) {
-
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
 }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 500px) {}
