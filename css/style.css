@@ -3,8 +3,8 @@
     margin: 0px;
 }
 
-html,
-body {
+html, body {
+    scroll-behavior: smooth;
     background-color: #b80d57;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -33,7 +33,7 @@ header {
     display: flex;
     height: 100px;
     align-items: center;
-    padding: 20px;
+    padding-top: 30px;
 }
 
 header a {
@@ -50,22 +50,28 @@ header a {
     flex-basis: 0;
 }
 
+/*
 .header-logo a img {
     width: 100%;
     max-width: 100px;
-}
+} */
 
-.header-about a,
-.header-cv a,
-.header-contact a {
+.header-about a, .header-cv a, .header-contact a {
+    margin: auto;
     font-weight: bold;
     text-align: center;
-    padding: 0px 20px;
+    padding: 40px 20px;
     color: white;
 }
 
 header a:hover {
     color: #ffd868;
+}
+
+.max-width-800 {
+    margin: auto;
+    max-width: 800px;
+    width: 100%;
 }
 
 #home {
@@ -80,6 +86,15 @@ header a:hover {
 #about a {
     text-decoration: none;
     color: #ffd868;
+}
+
+#about p {
+    padding: 10px;
+}
+
+h2 {
+    padding: 20px;
+    font-size: 2rem;
 }
 
 #cv {
@@ -143,8 +158,8 @@ hr {
     color: black;
     cursor: pointer;
     padding: 15px;
-    border-radius: 10px;
-    font-size: 1.5rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
 }
 
 #backToTopBtn:hover {
@@ -152,7 +167,13 @@ hr {
     color: #252525;
 }
 
-.fa {
+#contactBtn:hover {
+    background-color: #ffd868;
+    color: #252525;
+    box-shadow: black;
+}
+
+.fa-arrow-up {
     padding: 20px;
     font-size: 30px;
     width: 50px;
@@ -160,8 +181,8 @@ hr {
     text-decoration: none;
 }
 
-.fa:hover {
-    opacity: 0.7;
+.social {
+    padding: 40px;
 }
 
 @media screen and (max-width: 500px) {}

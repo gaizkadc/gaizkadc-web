@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/script.js"></script>
 
-    <body>
+<body>
 
-        <header>
+    <header>
+        <div class="max-width-800">
             <div class="header-logo">
-                <a href="#top"><img src="images/logo.png" alt="Gaizka DC"></a>
+                <!-- <a href="#top"><img src="images/logo.png" alt="Gaizka DC"></a> -->
+                <a href="#top"><i class="fa fa-times-circle fa-4x" aria-hidden="true"></i></a>
             </div>
             <div class="header-about">
                 <a href="#about">About</a>
@@ -27,22 +29,30 @@
                 <a href="#contact">Contact</a>
 
             </div>
-        </header>
-        <section id="home">
-            <div>
-                <h1>Hi, I'm Gaizka.<br>I build stuff.</h1>
-            </div>
-        </section>
-        <section id="about">
+        </div>
+    </header>
+    <section id="home">
+        <div class="max-width-800">
+            <h1>Hi, I'm Gaizka.<br>I build stuff.</h1>
+        </div>
+    </section>
+    <section id="about">
+        <div class="max-width-800">
             <div>
                 <h2>About</h2>
                 <p>I studied Telecommunications Engineering and have been working in IT for the last 13 years.</p>
-                <p>I've been involved in many different fields of IT but have recently discovered that Software Development is what I enjoy the most, so that's what I've been focusing on lately.</p>
-                <p>I've been lucky enough to work with some state-of-the-art technologies such as Edge Computing and Artificial Intelligence and really hope to keep it that way.</p>
-                <p>For more specific information, check my <a href="#cv">CV</a> or <a href="#contact">contact</a> me.</p>
+                <p>I've been involved in many different fields of IT but have recently discovered that Software
+                    Development
+                    is what I enjoy the most, so that's what I've been focusing on lately.</p>
+                <p>I've been lucky enough to work with some state-of-the-art technologies such as Edge Computing and
+                    Artificial Intelligence and really hope to keep it that way.</p>
+                <p>For more specific information, check my <a href="#cv">CV</a> or <a href="#contact">contact</a> me.
+                </p>
             </div>
-        </section>
-        <section id="cv">
+        </div>
+    </section>
+    <section id="cv">
+        <div class="max-width-800">
             <div>
                 <h2>CV</h2>
                 <div class="position">
@@ -64,6 +74,7 @@
                         </ul>
                     </div>
                 </div>
+
                 <hr />
                 <div class="position">
                     <div class="date-location">
@@ -110,7 +121,7 @@
                 </div>
                 <hr />
                 <div class="position">
-                    <div class="date-location"><br>
+                    <div class="date-location">
                         <p>Jan '17 - Jan '18</p>
                         <p>Dublin, Ireland</p>
                     </div>
@@ -224,17 +235,19 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="contact">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="max-width-800">
             <div>
                 <h2>Contact</h2>
                 <div class="contact-me">
-                    <a href="https://linkedin.com/in/gaizkadc" class="fa fa-linkedin" target="_blank"></a>
-                    <a href="https://github.com/gaizkadc" class="fa fa-github" target="_blank"></a>
-                    <a href="mailto:gaizka@gaizkadc.com?Subject=Hi%20Gaizka" class="fa fa-envelope" target="_blank"></a>
+                    <a href="https://linkedin.com/in/gaizkadc" class="fa fa-linkedin social" target="_blank"></a>
+                    <a href="https://github.com/gaizkadc" class="fa fa-github social" target="_blank"></a>
+                    <a href="mailto:gaizka@gaizkadc.com?Subject=Hi%20Gaizka" class="fa fa-envelope social" target="_blank"></a>
                 </div>
             </div>
-        </section>
-        <button onclick="topFunction()" id="backToTopBtn" title="Back to top">^</button>
-
-    </body>
+        </div>
+    </section>
+    <button onclick="topFunction()" id="backToTopBtn" title="Back to top" class="fa fa-arrow-up"></button>
+</body>
