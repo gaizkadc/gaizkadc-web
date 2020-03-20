@@ -211,4 +211,19 @@ h2 {
     color: gold;
 }
 
+.site404 {
+    font-family: 'Lato', sans-serif;
+}
+
+.site404 h1 {
+    font-size: 8rem;
+    color: gold;
+    padding: 20% 0;
+}
+
+.site404 h2 {
+    font-size: 2rem;
+    color: white;
+}
+
 @media screen and (max-width: 500px) {}
