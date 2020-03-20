@@ -3,8 +3,7 @@
     margin: 0px auto;
 }
 
-html,
-body {
+html, body {
     scroll-behavior: smooth;
     background-color: black;
     color: white;
@@ -211,14 +210,11 @@ h2 {
     color: gold;
 }
 
-.site404 {
-    font-family: 'Lato', sans-serif;
-}
-
 .site404 h1 {
     font-size: 8rem;
     color: gold;
     padding: 20% 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .site404 h2 {
