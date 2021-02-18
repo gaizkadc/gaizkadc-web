@@ -36,7 +36,6 @@ header {
 }
 
 .header-logo {
-    padding: 10px;
     height: 100px;
 }
 
@@ -87,7 +86,8 @@ header {
 }
 
 #home {
-    padding-top: 15%;
+    /* padding-top: 15%; */
+    padding: 15% 0px;
     color: white;
 }
 
