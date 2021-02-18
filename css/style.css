@@ -93,6 +93,11 @@ header {
 
 #home h1 {
     color: gold;
+    padding-left: 10px;
+}
+
+#home br {
+    padding-left: 10px;
 }
 
 #about {
